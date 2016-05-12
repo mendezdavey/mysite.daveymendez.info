@@ -1,0 +1,70 @@
+/* 
+    Created on : Feb 21, 2016, 10:20:28 AM
+    Author     : davidmendez
+*/
+:link { color: #0000EE; }
+:visited { color: #551A8B; }
+
+body {
+	margin:0;
+	padding:0;
+	background-color: white;
+}
+h1{
+    
+    font-size: 3em;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    
+    
+}
+p{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    
+}
+
+/* Code box */
+
+pre {
+    background: black;
+    color: white;
+    
+}
+
+.code-box{
+    height: 200px;
+    white-space: pre;
+    margin: -50px;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container-fluid{
+        width: 750px;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #wrapper{
+        width: 800px;
+    }
+    .container-fluid{
+        width: 800px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #wrapper{
+        width: 800px;
+    }
+    .container-fluid{
+        width: 800px;
+    }
+}

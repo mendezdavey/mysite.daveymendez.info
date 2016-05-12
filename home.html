@@ -1,0 +1,58 @@
+<?php 
+    define ("BOOTSTRAP", "");
+    define ("STYLE", " ");
+    define ("NORMALIZE", " ");
+    define ("TITLE", "Home Page | David Mendez");
+    include('php/head.php'); 
+?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Home Page | David Mendez</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> 
+    <?php echo BOOTSTRAP; ?>
+    
+    <?php echo STYLE; ?>
+    <?php echo NORMALIZE; ?>
+    
+    
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+       
+     
+      <div class='container' id="wrapper">
+
+          <h1>David Mendez</h1>
+          <h2>Introduction</h2>
+          <p>Welcome to my site! I have created my site in order to help my friends learn how to code,
+              play music, and other things that I will learn along the way.
+              I am not an expert on all of these things, but I hope you will find benefit in this web page.
+              Thank you and God bless you.</p>
+          <!--
+          <p id="demo2">Let AJAX change this text.</p>
+          <button type="button" onclick="loadDoc()">Change Content</button>
+          -->
+
+      </div>
+      
+
+
+<?php include('php/footer.php'); ?>
