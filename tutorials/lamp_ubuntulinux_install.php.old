@@ -25,34 +25,34 @@
        and has remained most popular since April 1996. In 2009,
        it became the first web server software to serve more than 100 million websites.[6] </p>
       <p>a) Run the commands:</p>
-      <div class="black-box">
-	<code>sudo apt-get update</code>
-     </div>
+      <pre>
+	<code class='code-box'>sudo apt-get update</code>
+      </pre>
       <p>b) Install apache2</p>
-     <div class="black-box">
+      <pre>
 	<code class='code-box'>sudo apt-get install apache2</code>
-      </div>
+      </pre>
       <p>c) Install mysql database</p>
-      <div class="black-box"> 
+       <pre>
 	<code class='code-box'>sudo apt-get install mysql</code>
-      </div>
+       </pre>
        <p>d) Install php</p>
-       <div class="black-box">  
-	<code>sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt</code>
-      </div>
+   
+	<code class='code-box'>sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt</code>
+      
        
        <h2 id="step2">Running Apache2 Service</h2>
        <p>a) Start apache2 service</p>
-      <div class="black-box"> 
+       <pre>
 	<code class='code-box'>sudo systemctl start apache2</code>
-      </div> 
+       </pre>
        <p>b) Status apache2 service</p>
-      <div class="black-box">
-	<code>sudo systemctl status apache2</code>
-      </div>
+       <pre>
+	<code class='code-box'>sudo systemctl status apache2</code>
+       </pre>
        <p>c) Stop apache2 service</p>
-      <div class="black-box"> 
+       <pre>
 	<code class='code-box'>sudo systemctl stop apache2</code>
-      </div>       
+       </pre>       
 <?php include('php/footer.php'); ?>
 

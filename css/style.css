@@ -19,29 +19,24 @@ h1{
     margin: 0;
     padding: 0;
 }
-h2{
-    
-    
-}
 p{
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    
-    
+    -moz-osx-font-smoothing: grayscale;    
 }
-
 /* Code box */
-
-pre {
-    background: black;
-    color: white;
+.black-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #ccc;
     
 }
-
-.code-box{
-    height: 200px;
-    white-space: pre;
-    margin: -50px;
+   
+code{
+    color: #252525;
+    background:none;
+    margin: 0;
+    padding: 0;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
