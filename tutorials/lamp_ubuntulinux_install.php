@@ -6,9 +6,10 @@
     include('php/head.php');
 ?>
    <div class='container' id="wrapper">
+     <h4>Last Modified: June 7, 2016</h4>
      <h1 id="intro">Install <a href='https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29'>LAMP Server</a> on Ubuntu Linux.</h1>
      <h2>Introduction</h2>
-     <p>Making in websites in HTML is good, but I have noticed that
+     <p>Making a websites in HTML is good, but I have noticed that
        there is allot of code repetition. To solve this issue I have begun using
        more php in my web pages. A great way to test your php is to setup a local
        web server on your computer. This tutorial will teach you how to set up a
