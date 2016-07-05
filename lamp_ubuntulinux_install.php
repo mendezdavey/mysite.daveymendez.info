@@ -1,7 +1,7 @@
 <?php
-    define ("NORMALIZE", "<link href='../css/normalize.css' rel='stylesheet'>");
-    define ("BOOTSTRAP", "<link href='../css/bootstrap.min.css' rel='stylesheet'>");
-    define ("STYLE", "<link href='../css/style.css' rel='stylesheet'>");
+    define ("NORMALIZE", "<link href='css/normalize.css' rel='stylesheet'>");
+    define ("BOOTSTRAP", "<link href='css/bootstrap.min.css' rel='stylesheet'>");
+    define ("STYLE", "<link href='css/style.css' rel='stylesheet'>");
     define("TITLE", "Install LAMP Server on Ubuntu Linux");
     include('php/head.php');
 ?>
@@ -31,7 +31,7 @@ echo "Today is " . date("l");
 ?>
      <h4>Last Modified: June 30, 2016</h4>
      <h1><?php echo TITLE; ?></h1>
-     <img src="../includes/img/lamp-mysql-php-apache1.png" style="max-width:50%;height:auto" >   
+     <img src="includes/img/lamp-mysql-php-apache1.png" style="max-width:50%;height:auto" >   
      <h2>Introduction</h2>
      <p>A great way to test your php is to setup a local
        web server on your computer. This tutorial will teach you how to set up a
