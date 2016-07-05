@@ -8,9 +8,9 @@
     <title><?php echo TITLE;?></title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet"> 
+    <link href="includes2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="includes/css/normalize.css" rel="stylesheet">
+    <link href="includes/css/style.css" rel="stylesheet"> 
     <?php echo BOOTSTRAP; ?>
     <?php echo NORMALIZE; ?>
     <?php echo STYLE; ?>

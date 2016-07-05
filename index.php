@@ -3,7 +3,7 @@
     define ("STYLE", " ");
     define ("NORMALIZE", " ");
     define ("TITLE", "Home Page");
-    include('php/head.php'); 
+    include('includes/php/head.php'); 
       
 ?>
 <div class="container-fluid">

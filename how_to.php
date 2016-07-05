@@ -3,7 +3,7 @@ define ("BOOTSTRAP", "");
 define ("STYLE", " ");
 define ("NORMALIZE", " ");
 define ("TITLE", "Tutorials Page | David Mendez");
-include('php/head.php'); 
+include('includes/php/head.php'); 
 ?>
 
       <div class='container' id="wrapper">

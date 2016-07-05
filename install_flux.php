@@ -3,7 +3,7 @@
     define ("BOOTSTRAP", "<link href='../css/bootstrap.min.css' rel='stylesheet'>");
     define ("STYLE", "<link href='../css/style.css' rel='stylesheet'>");
     define("TITLE", "Netbeans and MAMP Setup | David Mendez");
-    include('php/head.php');
+    include('includes/php/head.php');
 ?>    <!-- NAME OF FILE: install_flux.php> -->
       <div class='container' id="wrapper">
       <h1>Install <a href="https://justgetflux.com">f.lux</a> on Centos from tgz file.</h1>

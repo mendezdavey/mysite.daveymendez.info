@@ -3,9 +3,7 @@
     define ("BOOTSTRAP", "<link href='../css/bootstrap.min.css' rel='stylesheet'>");
     define ("STYLE", "<link href='../css/style.css' rel='stylesheet'>");
     define("TITLE", "Netbeans and MAMP Setup | David Mendez");
-    include('php/head.php');
-    
-    
+    include('includes/php/head.php');        
 ?>
       <div class='container' id="wrapper">
           <h1>Netbeans for Web Development</h1>
