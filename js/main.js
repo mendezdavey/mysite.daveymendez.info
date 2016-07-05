@@ -1,3 +1,4 @@
+/*
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
     if ($(".navbar").offset().top > 50) {
@@ -9,6 +10,7 @@ function collapseNavbar() {
 
 $(window).scroll(collapseNavbar);
 $(document).
+*/
 function loadDoc() {
   var xhttp;
   if (window.XMLHttpRequest) {

@@ -52,7 +52,7 @@ echo "Today is " . date("l");
       </div>
        <p>c) Install php</p>
        <div class="black-box">  
-	<code>sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt php-mysql</code>
+	<code>sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql</code>
       </div>
        
        <h2 id="step2">Step 2: Start/Stop Apache Service</h2>

@@ -1,5 +1,5 @@
 <?php 
-    define ("BOOTSTRAP", "");
+    define ("BOOTSTRAP", " ");
     define ("STYLE", " ");
     define ("NORMALIZE", " ");
     define ("TITLE", "Home Page");
