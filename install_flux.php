@@ -26,4 +26,4 @@ It's even possible that you're staying up too late because of your computer. You
  
     
 
-<?php include('php/footer.php'); ?>
+<?php include('includes/php/footer.php'); ?>

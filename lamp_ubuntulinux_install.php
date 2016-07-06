@@ -68,5 +68,5 @@ echo "Today is " . date("l");
       <div class="black-box"> 
 	<code class='code-box'>sudo systemctl stop apache2</code>
       </div>       
-<?php include('php/footer.php'); ?>
+<?php include('includes/php/footer.php'); ?>
 
