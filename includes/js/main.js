@@ -27,4 +27,8 @@ function loadDoc() {
   };
   xhttp.open("GET", "js/test.txt", true);
   xhttp.send();
+document.getElementById('night-mode').onclick = function(event){
+  document.getElementId('wrapper').style.backgroundColor = "magenta";
+}
+
 }

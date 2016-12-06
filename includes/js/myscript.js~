@@ -1,0 +1,8 @@
+document.getElementById('night-mode').onclick = function(event){
+    document.getElementById('page').style.backgroundColor = "black";
+    document.getElementById('page').style.color = "white";
+    document.getElementById('night-mode').style.backgroundColor = "gray";
+    document.getElementbyId('navigation').style.color = "magenta";
+    document.getElementbyTag("").removeClass("navbar-default").addClass("navbar-inverse");
+}
+

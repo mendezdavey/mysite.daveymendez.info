@@ -1,5 +1,5 @@
     
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -16,6 +16,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="how_to.php">Tutorials <span class="sr-only">(current)</span></a></li>
+	    <li id="night-mode"><a>Night-Mode</a></li>
             <!-- ADD LATER
             <li><a href="#">Link</a></li>
             <li class="dropdown">
